@@ -44,7 +44,8 @@ export default function Jobs({ jobs }) {
         setActiveStep(prevActiveStep => prevActiveStep - 1);
     };
 
-    console.log('job is', jobs[0])
+    console.log('job is', jobs);
+    
 
     return (
         <div>
