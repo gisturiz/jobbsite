@@ -55,7 +55,7 @@ export default function Jobs({ jobs }) {
                     Entry Level Software Jobs
             </Typography>
                 <Typography variant="h6" component="h1">
-                    Found {numJobs} Jobss
+                    Found {numJobs} Jobs
             </Typography>
                 {
                     jobsOnPage.map(
